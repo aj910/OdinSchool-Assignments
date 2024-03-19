@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate HTML</title>
+</head>
+
+<body>
+    <header>
+
+        <table border="1px solid black">
+            <tr>
+                <td>
+                    <h1>Macbook air</h1>
+                    <h5>Best laptop ever</h5>
+                </td>
+                <td><img src="https://imageio.forbes.com/specials-images/imageserve/5fb3d1fa8e17f0f68a05b87f/The-new-MacBook-Air-with-M1-processor-/960x0.jpg?format=jpg&width=960"
+                        alt="macbook air image" width="300" height="200" /></td>
+            </tr>
+
+        </table>
+
+    </header>
+    <main>
+        <section>
+            <h4>About Macbook Air</h4>
+            <p>
+                MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable
+                all aluminium enclosure. It's the ultra-fast, ultra-capable laptop that lets you work, play or create
+                just about anything — anywhere
+            </p>
+            <table border="1px solid black">
+                <thead>
+                    <th>S.No.</th>
+                    <th>Model</th>
+                    <th>RAM</th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="2">Macbook Air M1</td>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>16 GB</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td rowspan="3">Macbook Air M2</td>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+
+                        <td>16 GB</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>24 GB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h4>Buy Now</h4>
+            <form>
+                <fieldset>
+                    <legend>Product Details</legend>
+                    <label for="prodname">Product Name</label>
+                    <select id="prodname" name="prodname">
+                        <optgroup label="Macbook Air M1">
+                            <option value="first">8 GB</option>
+                            <option value="second">16 GB</option>
+                        </optgroup>
+                        <optgroup label="Macbook Air M2">
+                            <option value="first">8 GB</option>
+                            <option value="second">16 GB</option>
+                            <option value="second">24 GB</option>
+
+                        </optgroup>
+                    </select>
+                    <br />
+                    <br />
+
+                    <label for="quantity">Quantities</label>
+                    <input type="number" name="quantity" />
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" />
+                    <br />
+                    <br />
+
+                    <label for="age">Age</label>
+                    <input type="number" name="age" />
+                    <br />
+
+                    <h5>Gender</h5>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                </fieldset>
+                <br />
+                <input type="button" value="Submit" />
+                <input type="button" value="Reset" />
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <em>&copy; Copyright, 2023 OdinSchool</em>
+    </footer>
+</body>
+
+</html>
