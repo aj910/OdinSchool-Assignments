@@ -7,13 +7,19 @@ div {
     width: 250px;
     height: 250px;
     padding: 50px;
-    
-    /* border: 5px solid black */
+    border: 5px solid black;
 }
 
-/* css tip: For instance, in a web page, if we have 3 div boxes and the second box is to be given some alignment or spacing,
+/* 1) css tip: For instance, in a web page, if we have 3 div boxes and the second box is to be given some alignment or spacing,
    then you need to calculate the width of either the first or the third box. This you can achieve through box model concept.
-   Formula: Width of the box + spacing values from all the sides */
+   Formula: Width of the box + padding values from left and right sides + border value from both sides
+   2) class selectors have css precedence or higher priority over type selectors */
+
 .box2 {
-  margin-left: 350px;
+  margin-left: 358px;
+  border: 10px solid brown;
+}
+
+.box3 {
+    margin-left: 726px;
 }
