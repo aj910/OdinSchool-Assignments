@@ -28,3 +28,10 @@ span {
     background-color: orange;
     color: black;
 }
+
+/* In display: none, the html element or tag is not shown, like almost gone from the web page, but in visibility hidden, the html element or tag appears to be 
+visible inside the HTML DOM but its info is not shown on the web page */
+
+#hidden {
+    visibility: hidden;
+}
