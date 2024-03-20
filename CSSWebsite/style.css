@@ -23,3 +23,8 @@ div {
 .box3 {
     margin-left: 726px;
 }
+
+span {
+    background-color: orange;
+    color: black;
+}
