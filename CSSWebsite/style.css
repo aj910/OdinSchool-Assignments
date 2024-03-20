@@ -1,6 +1,26 @@
-h3 {
-    color: blue;
+#position {
+    width: 100px;
+    height:100px;
+    border: none;
+    display: inline-block;
+    margin-left: 15px;
 }
+
+.blue {
+  background-color: blue;
+  position: relative;
+  left: 210px;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+  position: relative;
+  right: 230px;
+} 
 
 div {
     background-color: lime;
