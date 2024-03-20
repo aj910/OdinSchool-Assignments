@@ -1,3 +1,6 @@
+/* relative styles - this works in accordance with its original position and positioning is done left, top, bottom or right 
+   in order to make the element move from its original place */
+
 #position {
     width: 100px;
     height:100px;
@@ -5,6 +8,7 @@
     display: inline-block;
     margin-left: 15px;
 }
+
 
 .blue {
   background-color: blue;
@@ -27,7 +31,7 @@ div {
     width: 250px;
     height: 250px;
     padding: 50px;
-    border: 5px solid black;
+    
 }
 
 /* 1) css tip: For instance, in a web page, if we have 3 div boxes and the second box is to be given some alignment or spacing,
@@ -35,23 +39,52 @@ div {
    Formula: Width of the box + padding values from left and right sides + border value from both sides
    2) class selectors have css precedence or higher priority over type selectors */
 
+/* absolute styles - this works in accordance with its parent element and positioning is done left, top, bottom or right accordingly.
+   It has to be made sure that the parent element should be made relative position */
+
+.box-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
+
+.box1 {
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: 0;
+}
 .box2 {
-  margin-left: 358px;
-  border: 10px solid brown;
+  position: absolute;
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  top: 0;
 }
 
 .box3 {
-    margin-left: 726px;
+    position: absolute;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    bottom: 0;
 }
 
-span {
-    background-color: orange;
-    color: black;
+.box4 {
+    position: absolute;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    right: 0;
+    bottom: 0;
 }
+
 
 /* In display: none, the html element or tag is not shown, like almost gone from the web page, but in visibility hidden, the html element or tag appears to be 
 visible inside the HTML DOM but its info is not shown on the web page */
 
-#hidden {
-    visibility: hidden;
-}
