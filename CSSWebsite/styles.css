@@ -10,7 +10,7 @@ h3 {
     color: white;
 }
 
-.clearfix {
+.clear {
     clear: both;
 }
 
@@ -59,7 +59,7 @@ h3 {
 
 .heading-container {
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 .block {
