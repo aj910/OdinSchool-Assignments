@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    margin-left: 2rem;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.navbar {
+    background-color: #313635;
+    padding-top:30px;
+    height: 80px;
+}
+
+.navbar h3 {
+    float: left;
+    width: 33.33%;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li{
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+
+.nav-links ul {
+    list-style-type: none;
+    
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.form-container, .heading-container {
+   padding: 20px;
+}
+
+.form-container label {
+    display: block;
+}
+.form-container .input-types {
+    padding: 8px;
+    width: 100%;
+}
+
+.heading-container {
+    margin: auto;
+    width: 80%;
+}
+
+.block {
+    float: left;
+}
+
+.position-box {
+    position: relative;
+    margin: 20px;
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+   
+}
+
+.position-box h1 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-weight: bold;
+}
+
+.position-box #crash {
+    position: absolute;
+    font-weight: bold;
+    bottom: 40px;
+    right: 200px;
+    color: black;
+}
+
+footer {
+    background-color: #313635;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
