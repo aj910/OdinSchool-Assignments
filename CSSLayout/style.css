@@ -6,7 +6,9 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 30px;
     background-color: thistle;
+    
 }
 
 .logo-section {
@@ -25,4 +27,9 @@ body {
 
 .clearfix {
     clear: both;
+}
+
+.sectionOne {
+    width: 50%;
+    float: left;
 }
